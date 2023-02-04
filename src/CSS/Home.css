@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.Logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Sm {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+}
+#Social-btn {
+  width: 40px;
+  margin-left: 4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+#Social-btn:hover {
+  scale: 1.1;
+}
+.HomePage {
+  height: 100vh;
+  min-height: 500px;
+  background: url(../Images/1110353.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.HomePage .inner-width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.HomePage .Content {
+  width: 100%;
+  color: #fff;
+}
+.HomePage .Content h1 {
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+.HomePage .Content h1::after {
+  content: "Corbin";
+  animation: textanimate 8s infinite;
+}
+@keyframes textanimate {
+  25% {
+    content: "A Developer";
+  }
+  75% {
+    content: "A Graduate";
+  }
+}
+.Buttons {
+  margin-top: 60px;
+}
+.Buttons a {
+  display: inline-block;
+  margin: 15px 30px;
+  color: rgb(40, 48, 120);
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid rgb(40, 48, 120);
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: 0.2s linear;
+  text-decoration: none;
+}
+.Buttons a:hover,
+.Buttons a:nth-child(2) {
+  background-color: rgb(40, 48, 120);
+  color: #fff;
+}
